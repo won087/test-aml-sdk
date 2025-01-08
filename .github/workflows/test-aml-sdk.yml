@@ -30,3 +30,7 @@ jobs:
       - name: after install
         run: |
           pip list
+
+      - name: python version
+        run: |
+          python -V
